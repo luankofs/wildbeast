@@ -1,0 +1,23 @@
+body {
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "header"
+    "sidenav"
+    "content"
+    "announcement"
+    "footer";
+}
+
+.sidenav {
+  padding: 15px;
+}
+
+.sidenav ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.sidenav ul a {
+  margin-bottom: 0px;
+}
